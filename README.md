@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Tandem SEApprentice Challenge 2020
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run the code
+- After downloading the repo into your code editor, run 'npm install' or 'npm i' to install all the necessary dependencies. Then run the code my typing 'yarn start' into the console.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- HTML
+- CSS
+- JavaScript
+- React
 
-### `yarn start`
+## Challenges
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- For some reason, the create-react-app I normally use on my computer did not properly work, and I was forced to reinstall it, which seemingly runs a little different to what I am used to. As a result, I had some difficulty with React behaving slightly different from what I am used to.
+- I had some issues with figuring out whether to place certain state values in the parent or child components so that I could access and update them as desired.
+- I started this challenge rather late and so felt rushed to complete as much as I could within my free time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## What I Would Like To Revisit/Improve
 
-### `yarn test`
+- I would definitely like to add styling to make this look more presentable given the time.
+- Currently I only have 2 major components holding the logic of the trivia app. I would love to refactor it into smaller and more reusable components.
+- I feel that this app runs a bit slow when refreshing the page, and I suspect it may have to do with the 10 differnt questions being ever present and rerendering constantly. I would love to go back and update the app to figure out a way to not have all 10 questions rendered at the same time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
